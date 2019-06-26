@@ -1,0 +1,32 @@
+! ******************
+! urxvt config
+! ******************
+
+! Disable Perl extension
+! If you do not use the Perl extension features, you can improve the security
+! and speed by disabling Perl extensions completely. 
+URxvt.perl-ext:
+URxvt.perl-ext-common:
+
+! -- Fonts -- !
+URxvt.font:xft:Monospace:pixelsize=13
+URxvt.boldfont:xft:Monospace-Bold:pixelsize=13
+!URxvt*font:  -xos4-terminus-medium-*-*-*-14-*-*-*-*-*-iso8859-15,xft:terminus:pixelsize:12
+!URxvt*boldFont:  -xos4-terminus-bold-*-*-*-14-*-*-*-*-*-iso8859-15,xft:terminus:bold:pixelsize:12
+!URxvt*italicFont:  xft:Bitstream Vera Sans Mono:italic:autohint=true:pixelsize=12
+!URxvt*boldItalicFont:  xft:Bitstream Vera Sans Mono:bold:italic:autohint=true:pixelsize=12
+
+! Disable scrollbar
+!URxvt*scrollBar: false
+
+! Scrollbar style - rxvt (default), plain (most compact), next, or xterm
+URxvt.scrollstyle: plain
+
+! Background color
+!URxvt*background: black
+URxvt*background: #1B1B1B
+
+! Font color
+!URxvt*foreground: white
+URxvt*foreground: #FFFFFF
+
