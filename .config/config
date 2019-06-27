@@ -1,0 +1,19 @@
+interval=1
+color=#ffffff
+separator_block_width=25
+markup=none
+align=center
+color=#ffffff
+
+[time]
+command=echo -n "  "; date '+%a, %d %b %r'
+interval=1
+
+[weather]
+command=curl -Ss 'https://wttr.in?O&T&Q' | cut -c 16- | head -2 | xargs echo
+interval=3600
+
+[ip]
+command=hostname -i | awk '{ print "IP:" $1 }'
+interval=once
+
